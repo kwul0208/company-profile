@@ -5,13 +5,17 @@ import {
   Route
 } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import OurServices from './pages/OurServices';
 
 function App() {
   return (
     <>
       <Router >
         <Navbar />
-
+        <Switch>
+          <Route path='/' exact component={OurServices} />
+          <Route path='/' exact component={OurServices} />
+        </Switch>
       </Router>
     </>
   );
