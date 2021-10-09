@@ -1,4 +1,6 @@
 import React from 'react';
+import './Features.css';
+
 // img
 import cPanel from '../assets/img/cpanel.png';
 import imunity from '../assets/img/imunity.png';
@@ -6,7 +8,6 @@ import litespeed from '../assets/img/litespeed.png';
 import softaculous from '../assets/img/softaculous.png';
 import wordprss from '../assets/img/wordprss.png';
 import cloudflare from '../assets/img/cloudflare.png';
-import './Features.css';
 // icon
 import timer from '../assets/icon/time.png';
 import blazing from '../assets/icon/blazing.png';
@@ -50,7 +51,7 @@ function Features() {
                 </div>
             </div>
 
-            <div className='row'>
+            <div className='row row-icon'>
                 <div className='col-3'>
                     <img src={timer} className='icon-feature' />
                     <h4 className='title-h4'>99.9% Uptime</h4>

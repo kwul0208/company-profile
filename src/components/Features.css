@@ -73,6 +73,7 @@
         justify-content: center;
     }
 
+
     .col-3{
         width: 50%;
         display: inline-block;
@@ -101,5 +102,13 @@
 @media screen and (max-width: 500px){
     .feature img{
         width: 80px;
+    } 
+
+    .row-icon{
+        position: relative;
+        top: -60px;
     }
+
+
+
 }

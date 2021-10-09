@@ -1,0 +1,62 @@
+.contactComp{
+    background-color: #e4edf8;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.lb{
+    position:absolute;
+    margin-top: 260px;
+    margin-left: 3% ;
+}
+
+.t{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 30%;
+}
+
+.rb{
+    position:absolute;
+    margin-top: 200px;
+    margin-left: 90% ; 
+}
+
+@media screen and (max-width: 966px){
+    .lb{
+        margin-top: 140px;
+    }
+    
+    .t{
+        margin-top: -20px;
+    }
+    
+    .rb{
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .lb{
+        width: 20px;
+        margin-top: 180px;
+
+    }
+    
+    .t{
+        width: 20px ;
+        margin-top: -10px;
+    }
+    
+    .rb{
+        width: 30px;
+    }
+
+    .btn-contactComp{
+        width: 200px !important;
+    }
+}
+

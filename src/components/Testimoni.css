@@ -1,0 +1,156 @@
+
+.testimoni{
+    margin-top: -120px !important;
+    width: 100%;
+    margin: auto;
+}
+.quote{
+    width: 140px;
+    position: absolute;
+    margin-left: -90px;
+    margin-top: -60px;
+}
+
+.title-testimoni{
+    font-size: 48px;
+    /* position: static; */
+    margin-left: 100px;
+    margin-top: 70px;
+    line-height: 64px;
+}
+
+.subtitle-testimoni{
+    font-size: 18px;
+    margin-left: 100px;
+    line-height: 32px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-testimoni{
+    box-shadow: rgba(50, 50, 93, .1) 0px 13px 27px -5px, rgba(68, 49, 49, 0.1) 0px 8px 16px -8px;
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.card-testimoni-left{
+    margin: auto;
+}
+
+.img-card-testimoni{
+    width: 78px;
+    margin-left: 60px;
+}
+
+.quoteMini{
+    width: 10px;
+    margin-bottom: 10px;
+    margin-left: -15px;
+}
+.quoteMinix{
+    position: absolute;
+    width: 30px;
+    margin-bottom: 10px;
+    margin-left: -15px;
+}
+
+.desc-card-testimoni{
+    font-size: 16px;
+    font-family: arial;
+    margin: 0 40px;
+    line-height: 32px;
+}
+
+.name-card-testimoni{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 40px;
+    line-height: 28px;
+}
+
+.subname-card-testimoni{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(61, 60, 60, 0.6);
+    margin-left: 40px;
+    line-height: 28px;
+}
+
+.row-customer{
+    background-color: #fff;
+    margin: 0;
+}
+
+
+.customers{
+    list-style: none;
+    display: flex;
+    padding: 0 70px;
+}
+
+.title-customer{
+    margin-top: 0;
+}
+
+.customer{
+    margin: auto;
+}
+
+@media screen and (max-width: 966px) {
+    .quote{
+        width: 100px;
+        margin-left: -70px;
+        margin-top: -40px;
+
+    }
+
+    .title-testimoni{
+        font-size: 38px;
+        margin-top: 120px !important;
+        margin: auto;
+        margin-top: 70px;
+        line-height: 44px;
+    }
+
+    .subtitle-testimoni{
+        font-size: 15px;
+        margin: auto;
+        line-height: 32px; 
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .quote{
+        width: 60px;
+        margin-left: -45px;
+        margin-top: -30px;
+
+    }
+    .title-testimoni{
+        font-size: 28px;
+        margin: auto;
+        margin-top: 70px;
+        line-height: 34px;
+    }
+
+    .img-card-testimoni{
+        width: 78px;
+        margin: auto;
+    }
+    .customers{
+    padding: 10px;
+
+    }
+
+    .customer img{
+        width: 80px;
+        margin: auto;
+    }
+
+    .subtitle-testimoni{
+        margin-top: 20px;
+        line-height: 22px; 
+        
+    }
+}
