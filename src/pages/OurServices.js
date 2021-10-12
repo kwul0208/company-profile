@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ContactComp from '../components/ContactComp';
 import Features from '../components/Feature';
 import Footer from '../components/Footer';

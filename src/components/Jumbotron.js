@@ -3,8 +3,11 @@ import './Jumbotron.css';
 import imgJumb from '../assets/img/jumbotron.png';
 
 function Jumbotron() {
+    const handleScroll = () => {
+        console.log('ok')
+    }
     return (
-        <div className='row' >
+        <div className='row row-jumbotron' onScroll={handleScroll} >
             <div className='col-6'>
                 <ul className='nav-jumb'>
                     <li className='nav-iteme'>

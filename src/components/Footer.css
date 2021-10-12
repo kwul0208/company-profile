@@ -2,6 +2,12 @@
     background-color: #B00000;
     color: #ffff;
     margin-bottom: -80px !important;
+    margin-top: 50px;
+}
+
+.row-footer{
+    width: 90%;
+    margin: auto;
 }
 
 .brand-footer{
@@ -40,7 +46,7 @@
 
 .author{
     margin: auto;
-    margin-top: -29px;
+    margin-top: 29px;
 }
 
 @media screen and (max-width: 966px){
@@ -54,9 +60,10 @@
         margin:auto;
     }
 
-    .col-2{
+    .col-2-footer{
+        width: 20% !important;
         display: inline-flex;
-        margin: auto;
+        margin: auto !important;
         /* background-color: #999; */
     }
 

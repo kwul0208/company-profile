@@ -6,12 +6,12 @@ import brandFooter from '../assets/img/brandFooter.png'
 function Footer() {
     return (
         <div className='footer'>
-            <div className='row'>
+            <div className='row row-footer'>
                 <div className='col-4 col-4-footer'>
                     <img src={brandFooter} className='brand-footer' />
                     <p className='desc-card-testimoni desc-footer'>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elem</p>
                 </div>
-                <div className='col-2'>
+                <div className='col-2-footer'>
                     <ul className='ul-footer'>
                         <li className='li-footer li-first'>
                             <p className='desc-card-testimoni footer-desc'>Service</p>
@@ -30,7 +30,7 @@ function Footer() {
                         </li>
                     </ul>
                 </div>
-                <div className='col-2'>
+                <div className='col-2-footer'>
                     <ul className='ul-footer'>
                         <li className='li-footer li-first'>
                             <p className='desc-card-testimoni footer-desc'>Hosting</p>
@@ -49,7 +49,7 @@ function Footer() {
                         </li>
                     </ul>
                 </div>
-                <div className='col-2'>
+                <div className='col-2-footer'>
                     <ul className='ul-footer'>
                         <li className='li-footer li-first'>
                             <p className='desc-card-testimoni footer-desc'>Company</p>
@@ -65,7 +65,7 @@ function Footer() {
                         </li>
                     </ul>
                 </div>
-                <div className='col-2'>
+                <div className='col-2-footer'>
                     <ul className='ul-footer'>
                         <li className='li-footer li-first'>
                             <p className='desc-card-testimoni footer-desc'>Help</p>

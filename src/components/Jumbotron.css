@@ -1,17 +1,12 @@
-.row{
-    margin-top: 120px !important;
+.row-jumbotron{
+    margin-top: 70px !important;
     margin: 80px;
     display: flex;
-    /* text-align: center; */
 }
 .col-6{
-    /* background: #999; */
-    /* float: left; */
     width: 50%;
 }
 .col-6{
-    /* background: #999; */
-    /* float: left; */
     width: 50%;
 }
 

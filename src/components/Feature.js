@@ -17,7 +17,7 @@ import support from '../assets/icon/support.png';
 function Features() {
     return (
         <>
-            <div className='row'>
+            <div className='row row-feature'>
                 <div className='col-6'>
                     <h2 className='title' >True Cloud Web Hosting</h2>
                     <p className='desc-h2'>

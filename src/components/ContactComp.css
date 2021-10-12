@@ -5,6 +5,7 @@
     border-radius: 10px;
     text-align: center;
     padding: 20px 0;
+    /* z-index: -9999 !important; */
 }
 
 .lb{
@@ -28,14 +29,17 @@
 @media screen and (max-width: 966px){
     .lb{
         margin-top: 140px;
+        /* z-index: -9; */
     }
     
     .t{
         margin-top: -20px;
+        /* z-index: -9; */
     }
     
     .rb{
         margin-top: 100px;
+        /* z-index: -9; */
     }
 }
 
