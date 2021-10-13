@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import ContactComp from '../components/ContactComp';
-import Features from '../components/Feature';
-import Footer from '../components/Footer';
-import Jumbotron from '../components/Jumbotron';
-import PackageCloude from '../components/PackageCloud';
-import Testimoni from '../components/Testimoni';
+import ContactComp from '../components/ourService/ContactComp';
+import Features from '../components/ourService/Feature';
+import Footer from '../components/ourService/Footer';
+import Jumbotron from '../components/ourService/Jumbotron';
+import PackageCloude from '../components/ourService/PackageCloud';
+import Testimoni from '../components/ourService/Testimoni';
 
 function OurServices() {
     return (

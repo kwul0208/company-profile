@@ -2,8 +2,8 @@ import React from 'react';
 import './PackageCloud.css';
 
 // icon
-import ceklis from '../assets/icon/ceklis.png';
-import dot from '../assets/icon/dot.png';
+import ceklis from '../../assets/icon/ceklis.png';
+import dot from '../../assets/icon/dot.png';
 function PackageCloude() {
     return (
         <div className="packages">

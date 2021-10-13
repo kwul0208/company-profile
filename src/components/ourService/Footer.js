@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 // img
-import brandFooter from '../assets/img/brandFooter.png'
+import brandFooter from '../../assets/img/brandFooter.png'
 
 function Footer() {
     return (

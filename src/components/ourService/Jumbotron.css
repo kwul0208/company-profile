@@ -22,7 +22,7 @@ hr{
     border: 2px solid #D6D4D4;
     border-radius: 10px;
     width: 265px;
-    margin-left: -1px;
+    margin-left: -2px;
 }
 
 .nav-iteme a{
@@ -30,11 +30,13 @@ hr{
     margin-left: 10px;
     color: #D6D4D4;
     padding-right: 20px;
+    cursor: pointer;
 }
 .active{
     text-decoration: none;
     color: #B00000 !important;
-    border-bottom: 3px solid #B00000;
+    border-bottom: 4px solid #B00000;
+    
 }
 
 h1{
@@ -162,3 +164,18 @@ p.desc-jumb{
 
 
  }
+
+
+
+
+ /* subNav */
+ .hosting, .domain, .seo, .email{
+    /* opacity: 1; */
+    animation-name: show;
+    animation-duration: 2s;
+}
+
+@keyframes show {
+    0% {opacity: 0;}
+    100%{opacity: 1;}
+}

@@ -2,17 +2,17 @@ import React from 'react';
 import './Features.css';
 
 // img
-import cPanel from '../assets/img/cpanel.png';
-import imunity from '../assets/img/imunity.png';
-import litespeed from '../assets/img/litespeed.png';
-import softaculous from '../assets/img/softaculous.png';
-import wordprss from '../assets/img/wordprss.png';
-import cloudflare from '../assets/img/cloudflare.png';
+import cPanel from '../../assets/img/cpanel.png';
+import imunity from '../../assets/img/imunity.png';
+import litespeed from '../../assets/img/litespeed.png';
+import softaculous from '../../assets/img/softaculous.png';
+import wordprss from '../../assets/img/wordprss.png';
+import cloudflare from '../../assets/img/cloudflare.png';
 // icon
-import timer from '../assets/icon/time.png';
-import blazing from '../assets/icon/blazing.png';
-import certifitate from '../assets/icon/certifitate.png';
-import support from '../assets/icon/support.png';
+import timer from '../../assets/icon/time.png';
+import blazing from '../../assets/icon/blazing.png';
+import certifitate from '../../assets/icon/certifitate.png';
+import support from '../../assets/icon/support.png';
 
 function Features() {
     return (

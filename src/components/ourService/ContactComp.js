@@ -1,8 +1,8 @@
 import React from 'react';
 import './ContactComp.css';
-import lb from '../assets/icon/lb.png';
-import t from '../assets/icon/t.png';
-import rb from '../assets/icon/rb.png';
+import lb from '../../assets/icon/lb.png';
+import t from '../../assets/icon/t.png';
+import rb from '../../assets/icon/rb.png';
 
 function ContactComp() {
     return (

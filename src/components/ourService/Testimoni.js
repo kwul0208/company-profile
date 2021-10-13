@@ -1,15 +1,15 @@
 import React from 'react';
 import './Testimoni.css';
 // icon
-import quote from '../assets/icon/quote.png';
-import quotemini from '../assets/icon/quotemini.png';
+import quote from '../../assets/icon/quote.png';
+import quotemini from '../../assets/icon/quotemini.png';
 // img
-import jpnl from '../assets/img/JPNL.png';
-import korane from '../assets/img/korane.png';
-import nadine from '../assets/img/nadine.png';
-import leeveOn from '../assets/img/leeveOn.png';
-import jrangoglases from '../assets/img/jrangoglases.png';
-import crypto from '../assets/img/crypto.png';
+import jpnl from '../../assets/img/JPNL.png';
+import korane from '../../assets/img/korane.png';
+import nadine from '../../assets/img/nadine.png';
+import leeveOn from '../../assets/img/leeveOn.png';
+import jrangoglases from '../../assets/img/jrangoglases.png';
+import crypto from '../../assets/img/crypto.png';
 
 function Testimoni() {
     return (

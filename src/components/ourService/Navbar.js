@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import navBrand from '../assets/img/navBrand.png';
-import phone from '../assets/icon/phone.png';
-import lineNav from '../assets/icon/line-nav.png';
+import navBrand from '../../assets/img/navBrand.png';
+import phone from '../../assets/icon/phone.png';
+import lineNav from '../../assets/icon/line-nav.png';
 import './Navbar.css';
 
 function Navbar() {
@@ -68,7 +68,7 @@ function Navbar() {
                             <ul className='ul-sn'>
                                 <li className='li-sn-4-right ln'>
                                     <Link to='/account' className='nav-links nav-links-nav2 account'>
-                                        Account
+                                        Login
                                     </Link>
                                 </li>
                                 <li className='li-sn-4-right ln'>
